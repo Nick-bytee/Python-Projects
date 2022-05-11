@@ -15,8 +15,7 @@ def iscollide(data):
             if data[a,b] > 100:
                 press("up")
                 return
-#logic for bird
-    
+#logic for bird   
     for i in range(335,397):
         for j in range(323,366):
             if data[i,j] > 100:
@@ -34,5 +33,5 @@ if __name__ == "__main__":
         image = ImageGrab.grab().convert('L')
         data = image.load()
         iscollide(data)
- """It is not complete yet very basic code, it will only work in day mode of dino game
+ """It is not complete yet very basic code, it will only work in day mode of dino game"""
 
